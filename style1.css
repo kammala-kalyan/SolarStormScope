@@ -1,0 +1,205 @@
+/* space mono */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* changa */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*cousine*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+
+body {
+    background-image: url('https://iasnext.com/wp-content/uploads/2024/01/Insolation.webp'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: fixed;
+    border-radius: 1.5vh;
+    
+}
+
+.glassbg {
+    height: 83vh;
+    width: 95%;
+    margin: 8vh 5vh 8vh 5vh;
+    border-radius: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    overflow: hidden;
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 5vh rgba(227,228,237,0.37);
+    border: 0.9vh solid rgba(255,255,255,0.18);
+    
+}
+
+.box1 {
+    display: fixed;
+    justify-content: center;
+    height: 65vh;
+    width: 95%;
+
+}
+#title {
+    font-family:changa ;
+    color: rgb(197, 245, 246);
+    font-weight: bolder;
+    font-size: 10vh;
+    text-align: center;
+}
+#title >span {
+    color:#d55220;
+}
+.caption {
+    font-family:space mono ;
+    color: aliceblue;
+    font-size: 2.5vh;
+    text-align: center;
+}
+.box2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+
+
+#letsgo   {
+    
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    border-radius: 7vh;
+    background-color:transparent;
+    font-family: cousine;
+    color: white;
+    height: 5vh;
+    width: 15vh;
+   
+}
+#letsgo:hover {
+    cursor: pointer;
+} 
+/* for Tablets */
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    #title {
+        font-size: 9vh;
+        line-height: 13vh; 
+    }
+    .caption {
+        font-size: 2.3vh;
+        padding-top: 5vh;
+    }
+    .glassbg {
+        height: 83vh;
+        width: 87%;
+        border-radius: 6vh; 
+        margin: 9vh 4.5vh 8vh 4.5vh;
+    }
+    
+    .box1 {
+    
+        height: 62.9vh;
+        width: 95%;
+    
+    }
+    
+    .box2 {
+        
+        width: 90%;
+    }
+
+} /* For mobile screen Portrait */
+@media only screen and (max-width: 500px) {
+    #title {
+        font-size: 5vh;
+        line-height: 9vh; 
+    }
+    #title >span {
+        display:inline-block;
+    }
+    .caption {
+        font-size: 2vh;
+        padding-top: 9vh;
+        line-height: 3.5vh;
+    }
+    .glassbg {
+        height: 89vh;
+        width: 87%; 
+        border-radius: 5vh;
+        margin: 5vh 3vh 5vh 3vh;
+    }
+    
+    .box1 {
+    
+        height: 69vh;
+        width: 95%;
+    
+    }
+    
+    .box2 {
+        width: 90%;
+    }
+}
+/*screens big than laptop*/
+@media only screen and (min-width: 1023px) and (min-height: 1366px) {
+    body {
+        padding: 0vh 0vh 0vh 0vh;
+    }
+    #title {
+        font-size: 6vh;
+        line-height: 9vh; 
+    }
+    #title >span {
+        display:inline-block;
+    }
+    .caption {
+        font-size: 2vh;
+        padding-top: 9vh;
+        line-height: 3.5vh;
+    }
+    .glassbg {
+        height: 89vh;
+        width: 87%; 
+        border-radius: 5vh;
+        margin: 5vh 5vh 5vh 5vh;
+    }
+    
+    .box1 {
+    
+        height: 69vh;
+        width: 95%;
+    
+    }
+    
+    .box2 {
+        width: 90%;
+    }
+    #letsgo   {
+        border-radius: 9vh;
+        height: 5vh;
+        width: 15vh;
+        font-size: 1.5vh;
+       
+    }
+}
+  
+
+  
+  
