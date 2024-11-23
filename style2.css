@@ -1162,7 +1162,7 @@ footer > p{
 
 }
 /*Screen biigger than laptop */
-@media only screen and (min-width:1023px) and (min-height : 1366px) {
+@media only screen and (min-width:3840px) and (min-height : 2160px) {
     body {
         margin: 0vh 0vh 0vh 0vh;
     }
