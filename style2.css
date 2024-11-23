@@ -135,7 +135,7 @@ navbar > ul >li >img {
     /*margin-top: 20px;
    */ height: max-content;
     width: 100%;
-    background-image: url('page1_background.jpg');
+    background-image: url("page1_background.jpg");
     background-size:cover;
     background-position: left;
     background-repeat: no-repeat;
