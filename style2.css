@@ -1209,7 +1209,7 @@ footer > p{
     /*margin-top: 20px;
    */ height: 100vh;
     width: 100%;
-    background-image: url('page1_background.jpg');
+    background-image: url("page1_background.jpg");
 }
 .herobar > span {
     z-index: index 1;
