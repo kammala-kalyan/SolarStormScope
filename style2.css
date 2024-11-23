@@ -1,1 +1,1518 @@
+/* space mono */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* changa */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*cousine*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    
+}
+#back {
+    height:max-content;
+    width: max-content;
+    border-radius: 2vh;
+    background-color: transparent;
+    padding-right: 3vh;
+    position: fixed;
+    bottom: 3vh;
+    left: 3vh;
+    color: rgb(255, 255, 255);
+    z-index: 102;
+    text-decoration: none;
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: max-content;
+    color: white;
+    font-family: space mono;
+    background-image: url('https://th.bing.com/th/id/OIP.0G1cfq8xvdEN7mATtRa9IQHaET?rs=1&pid=ImgDetMain');
+}
+
+
+/*----------------- Nav Bar----------------- */
+navbar {
+    height: 8vh;
+    width: 100%;
+    padding: 1% 0% 2% 0%;
+    color:white;
+    position: fixed;
+    left: 0vh;
+    top: 0vh;
+    z-index: 100;
+    backdrop-filter: blur(2vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+/*
+navbar > ul >li >img {
+    height: 8vh;
+    margin-top: 1vh;
+    
+}*/
+
+.navli {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family:changa;
+    align-items: center;
+    padding:0% 7% 0% 7% ;   
+}
+.navli >li>a {
+    background: transparent;
+    border-color: transparent;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-width: 0.2vh;
+    padding:1vh 1vh ;
+    color: white;
+    font-weight: 600;
+    font-size: 1.92vh;
+   
+    text-decoration: none;
+}
+
+
+.navli>li>a:hover {
+    border-color: white;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-width: 0.2vh;
+    cursor:pointer;
+    visibility: visible;
+    z-index: 101;
+ 
+}
+.navli>li>a:active {
+    border-color: rgb(207, 83, 25);
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-width: 0.2vh;
+    cursor:progress;
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 98, 42);
+    
+}
+/*herobar*/
+.explanation {
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    height: max-content;
+    width: 88%;
+    margin-top: 20vh;
+    border-radius:1vh ;
+    padding: 5vh 10vh 5vh 7vh;
+    font-size: 2.3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobar {
+    /*margin-top: 20px;
+   */ height: max-content;
+    width: 100%;
+    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.herobar > span {
+    font-family: cousine;
+    z-index: index 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.herobar > span > b {
+    color :rgb(207, 83, 25);
+    font-size: 10vh;
+    font-weight: 900;
+    padding-top: 10vh;
+    letter-spacing: 1.5vh;
+}
+/*Introduction*/
+#page2 {
+    background-image: url('https://th.bing.com/th/id/R.d14e7d815484e0c76853af9dd8549ae0?rik=iv9aBECgOxMI1w&riu=http%3a%2f%2fil2.picdn.net%2fshutterstock%2fvideos%2f4364933%2fthumb%2f4.jpg&ehk=uJjYH6i9rT8EbMZNvDx1nHz3uLWsQeRmCUIgLK0KDwc%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    padding: 3vh 0vh 3vh 0vh;
+    height: max-content;
+}
+.introduction {
+    padding: 2vh 2vh 3vh 2vh;
+    backdrop-filter: blur(0.19vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    height: max-content;
+    width: 97%;
+    margin: 0vh 2vh 0vh 2vh;
+    border-radius: 3vh;
+    background: transparent;
+}
+.introduction > article {
+    margin-left: 3.5%;
+    
+}
+.introduction > article >h2 {
+    text-decoration: dotted underline;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+#VDOS {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.introduction > article >p {
+    font-size: 2vh;
+    line-height: 4vh;
+}
+.introduction > article >h3 {
+    font-size: 3vh;
+}
+.introduction > article >h4 {
+    font-size: 2.4vh;
+}
+.introduction > article > video {
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    border-radius: 35px;
+    height: max-content;
+    width: 46%;
+     
+}
+/* page3 */
+
+#page3 {
+    
+    background-image: url('https://i.pinimg.com/736x/1f/2f/a4/1f2fa49dcb5dfaa98cff13baa6c1e869.jpg');
+    background-position:top;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin: 2vh 2vh 2vh 1vh;
+    
+    
+}
+.pagein {
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    margin: 0vh 2vh 0vh 2vh;
+    padding: 2vh 2vh 2vh 6vh;
+    border-radius: 3vh;
+    height: max-content;
+}
+
+.timeline {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    height: max-content;
+}
+.pagein >h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    font-family: changa;
+    color: rgb(255, 136, 0);
+    text-align: center;
+}
+.pagein >h3 {
+    font-size: 2.2vw;
+    font-weight: 700;
+    font-family: changa;
+    
+}
+#efx {
+    color:rgb(255, 255, 255) ;
+}
+.pagein >p {
+    font-size: 2vh;
+    font-family: changa;
+    font-family: space mono;
+    line-height: 4vh;
+    
+}
+.timeline >h3 {
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: changa;
+    letter-spacing: 1.2vh;
+}
+
+.checkpoint {
+    max-width: 87%;
+    padding: 2em 0vh 2vh 0em;
+    height: max-content;
+    
+}
+.checkpoint div {
+    border: 2px solid white;
+    border-radius: 2.4vh;
+    padding: 1.5vh;
+    backdrop-filter: blur(0.19vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+.checkpoint p {
+    line-height: 2.3vw;
+    font-size: 1vw;
+}/*
+.checkpoint:nth-child(odd) {
+    border-left : 3px solid #888;
+    padding-left : 3em;
+    transform :translateX(20vw);
+}
+.checkpoint:nth-child(even) {
+    border-right : 3px solid #888;
+    padding-right : 3em;
+    transform :translateX(-13.8vw);
+}
+.checkpoint:nth-child(odd)::before,
+.checkpoint::nth-child(even)::before {
+    content : '';
+    background: #888;
+    width:max-content;
+    height: max-content;
+    position:absolute;
+    top:50%;
+    transform:translateY(-45%);
+}*/
+
+#page3in > h3 {
+    font-size: 3vh;
+    line-height: 6vh;
+}
+#page3in > p {
+    font-size: 2vh;
+}
+
+/*page4*/
+#page4 {
+    margin: 2vh 2vh 2vh 1vh;
+    background-image: url('https://wallpapercave.com/wp/wp3348397.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99%;
+    height: max-content;
+}
+
+.page4_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: max-content;
+}
+.page4_1 > .aside>h3 {
+    font-size: 4vh;
+    line-height: 10vh;
+}
+.page4_1 > .aside > p {
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.page4_1 > img {
+    border-radius: 5vh;
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    height: max-content;
+    width: 45%;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+/*page5  */
+.page5 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-image: url('https://wallpapers.com/images/hd/city-night-pictures-gskgutgbj6g6n2a2.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 120%;
+    height: max-content;
+}
+.page5_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    height: max-content;
+}
+
+.page5_1 > .aside>h3 {
+    font-size: 4vh;
+    line-height: 10vh;
+}
+ .aside > p {
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.page5_1 > img {
+   
+    border-radius: 5vh;
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    height: max-content;
+    width: 45%;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    
+}
+.aside > h3 {
+    font-size: 4vh;
+    line-height: 8vh;
+}
+/*page6 */
+.page6 {
+   /* padding: 5vh 3vh 5vh 3vh;*/
+    background-image: url('https://i.pinimg.com/736x/a9/2d/a5/a92da591f96071959622a70719074011.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page6in{
+    text-align: center;
+    padding: 5vh 3vh 5vh 3vh;
+    backdrop-filter: blur(0.5vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    border-radius: 5vh;
+}
+.page6in >h1{
+    font-size: 5vh;
+    line-height: 10vh;
+}
+.page6in > p {
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.page6in >a {
+    text-decoration: none;
+    color: rgb(89, 255, 47);
+    
+    padding: 1vh 1vh 1vh 1vh;
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+    border-radius: 5vh;
+}
+/*footer content */
+footer {
+    border-top: 1px solid white;
+    padding: 3vh 0vh 4vh 0vh;
+    background-color:black;
+    color: rgb(156, 156, 156);
+    font-family: cousine;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh ;
+    width: 100%;
+    line-height: 5vh;
+}
+.footerbox1 {
+    margin: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer > h1{
+    font-size: 4vh;
+}
+footer > p{
+    font-size:2vh;
+}
+.footerbox1 > img {
+    height: 30vh;
+    opacity: 0.7;
+}
+#footerbox1_1 > p {
+    font-size: 2vh;
+}
+#footerbox1_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 0vh 0vh 0vh 0vh;
+    }
+    #back {
+        height:4vh;
+        width: 13vh;
+        border-radius: 8vh;
+        bottom: 1vh;
+        left: 1vh;
+    }
+    navbar {
+        height: 6vh;
+        padding: 0% 0% 0% 0%;
+        visibility: hidden;
+        width: 100%;
+    }
+    .navli {
+        padding:3% 0% 0% 0% ;   
+        visibility: hidden;
+    }
+    .navli >li>a {
+        padding:0vh 0vh ;
+        font-size: 1.2vh;
+    }
+    .navli>li>a:active {
+        border-top-left-radius: 01vh;
+        border-bottom-right-radius: 1vh;
+        border-width: 0.2vh;        
+    }
+    
+/*herobar*/
+.explanation {
+    height: 48vh;
+    width: 88%;
+    margin-top: 9vh;
+    border-radius:1vh ;
+    padding: 5vh 1vh 2vh 3vh;
+    font-size: 1.6vh;
+    font-weight: 100;
+}
+
+.herobar {
+    /*margin-top: 20px;
+   */ height: 100vh;
+    width: 100%;
+    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+}
+.herobar > span {
+    z-index: index 1;
+    padding-top: 5vh;
+    font-size: 1.9vh;
+    text-align: center;
+    
+}
+.herobar > span > b {
+    font-size: 7vh;
+    font-weight: 900;
+    padding-top: 7vh;
+    letter-spacing: 1vh;
+    color: aliceblue;
+}
+/*Introduction*/
+#page2 {
+    background-image: url('https://th.bing.com/th/id/R.d14e7d815484e0c76853af9dd8549ae0?rik=iv9aBECgOxMI1w&riu=http%3a%2f%2fil2.picdn.net%2fshutterstock%2fvideos%2f4364933%2fthumb%2f4.jpg&ehk=uJjYH6i9rT8EbMZNvDx1nHz3uLWsQeRmCUIgLK0KDwc%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 750%;
+    padding: 2vh 0vh 0vh 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.introduction {
+    padding: 2vh 2vh 3vh 2vh;
+    height: max-content;
+    width: 93%;
+    margin: 0vh 0vh 0vh 2vh;
+    border-radius: 3vh;
+}
+.introduction > article {
+    margin-left: 0%;
+    
+}
+.introduction > article >h2 {
+    font-size: 1.7vh;
+}
+
+.introduction > article >p {
+    font-size: 1.5vh;
+    line-height: 2.6vh;
+}
+.introduction > article >h3 {
+    font-size: 2vh;
+}
+.introduction > article >h4 {
+    font-size: 1vh;
+}
+#VDOS {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+.introduction > article > video {
+    border-radius: 15px;
+    margin: 0vh 0vh 2vh 0vh;
+    height:20vh;
+    width: 35vh ;
+    
+}
+
+/* page3 */
+
+#page3 {
+    
+    background-image: url('https://i.pinimg.com/736x/1f/2f/a4/1f2fa49dcb5dfaa98cff13baa6c1e869.jpg');
+    background-position:top;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    margin: 2vh 2vh 2vh 1vh;
+    
+    
+}
+.pagein {
+    margin: 0vh 1vh 0vh 1vh;
+    padding: 0vh 1vh 1.5vh 2vh;
+    border-radius: 1.6vh;
+}
+
+.timeline {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+.pagein >h1 {
+    font-size: 4vh;
+}
+.pagein >h3 {
+    font-size: 2vh;
+    
+}
+#efx {
+    color:rgb(255, 255, 255) ;
+}
+.pagein >p {
+    font-size: 1.4vh;
+    line-height: 2.6vh;
+    
+}
+.timeline >h3 {
+    font-size: 2.5vh;
+    font-weight: 700;
+    font-family: changa;
+    letter-spacing: 0.1vh;
+}
+.checkpoint {
+    width: 70%;
+    padding: 2em 0vh 2vh 0em;
+    
+}/**********/
+.checkpoint div {
+    border: 2px solid white;
+    border-radius: 2.4vh;
+    padding: 1.5vh;
+    backdrop-filter: blur(0.19vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+.checkpoint p {
+    line-height: 1em;
+    font-size: 1.3vh;
+}/*
+.checkpoint:nth-child(odd) {
+    border-left : 0px solid #888;
+    padding-left : 3em;
+    transform :translateX(2em);
+}
+.checkpoint:nth-child(even) {
+    border-right : 0px solid #888;
+    padding-right : 3em;
+    transform :translateX(-2em);
+}
+.checkpoint:nth-child(odd)::before,
+.checkpoint::nth-child(even)::before {
+    content : '';
+    background: #888;
+    width:3em;
+    height:3px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-45%);
+}*/
+#page3in > h3 {
+    font-size: 3vh;
+    line-height: 6vh;
+}
+#page3in > p {
+    font-size: 2vh;
+}
+
+/*page4*/
+#page4 {
+    margin: 2vh 2vh 2vh 1vh;
+    background-image: url('https://wallpapercave.com/wp/wp3348397.jpg');
+    background-size: 400%;
+}
+
+.page4_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: max-content;
+}
+.page4_1 > .aside>h3 {
+    font-size: 2vh;
+    line-height: 2.4vh;
+}
+.page4_1 > .aside > p {
+    font-size: 1.4vh;
+    line-height: 2vh;
+}
+.page4_1 > img {
+    border-radius: 2vh;
+    height: max-content;
+    width: 85%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+/*page5  */
+.page5 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-image: url('https://wallpapers.com/images/hd/city-night-pictures-gskgutgbj6g6n2a2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500%;
+    height: max-content;
+}
+.page5_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    height: max-content;
+}
+
+.page5_1 > .aside>h3 {
+    font-size: 1.8vh;
+    line-height: 2.4vh;
+}
+ .aside > p {
+    padding-top: 1.3vh;
+    font-size: 1.4vh;
+    line-height: 2.4vh;
+}
+.page5_1 > img {
+   
+    border-radius: 1.8vh;
+    height: max-content;
+    width: 85%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    
+}
+.aside > h3 {
+    font-size: 2vh;
+    line-height: 2.8vh;
+}
+/*page6 */
+.page6 {
+    padding: 2vh 3vh 2vh 1vh;
+    background-image: url('https://i.pinimg.com/736x/a9/2d/a5/a92da591f96071959622a70719074011.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.page6in{
+    text-align: center;
+    padding: 2vh 1vh 1vh 1.2vh;
+    border-radius: 1.5vh;
+}
+.page6in >h1{
+    font-size: 2.5vh;
+    line-height: 3vh;
+}
+.page6in > p {
+    padding-top: 2vh;
+    font-size: 1.4vh;
+    line-height: 2.49vh;
+}
+.page6in >a {
+    height: max-content;
+    width: max-content;
+    border-radius: 2.5vh;
+}
+/*footer content */
+footer {
+    padding: 3vh 1vh 4vh 1vh;
+    width: 100%;
+    line-height: 2.4vh;
+    height: max-content;
+}
+.footerbox1 {
+    margin: 02vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > h1{
+    font-size: 2.4vh;
+}
+footer > p{
+    font-size:1.4vh;
+}
+.footerbox1 > img {
+    width: 80%;
+    height: max-content;
+    opacity: 0.7;
+}
+#footerbox1_1 > p {
+    font-size: 1.3vh;
+}
+
+
+
+}
+@media only screen and (min-width: 900px) and (min-height : 900px) {
+    body {
+        margin: 0vh 0vh 0vh 0vh;
+    }
+    #back {
+        height:4vh;
+        width: 13vh;
+        border-radius: 8vh;
+        bottom: 1vh;
+        left: 1vh;
+    }
+    navbar {
+        height: 6vh;
+        padding: 0% 0% 0% 0%;
+        visibility: visible;
+        width: 100%;
+    }
+    .navli {
+        padding:3% 0% 0% 0% ;   
+        visibility: visible;
+    }
+    .navli >li>a {
+        padding:0vh 0vh ;
+        font-size: 1.2vh;
+    }
+    .navli>li>a:active {
+        border-top-left-radius: 01vh;
+        border-bottom-right-radius: 1vh;
+        border-width: 0.2vh;        
+    }
+    
+/*herobar*/
+.explanation {
+    height: 48vh;
+    width: 88%;
+    margin-top: 9vh;
+    border-radius:1vh ;
+    padding: 5vh 1vh 2vh 3vh;
+    font-size: 1.6vh;
+    font-weight: 100;
+}
+
+.herobar {
+    /*margin-top: 20px;
+   */ height: 100vh;
+    width: 100%;
+    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+}
+.herobar > span {
+    z-index: index 1;
+    padding-top: 5vh;
+    font-size: 1.9vh;
+    text-align: center;
+}
+.herobar > span > b {
+    font-size: 7vh;
+    font-weight: 900;
+    padding-top: 7vh;
+    letter-spacing: 1vh;
+}
+/*Introduction*/
+#page2 {
+    background-image: url('https://th.bing.com/th/id/R.d14e7d815484e0c76853af9dd8549ae0?rik=iv9aBECgOxMI1w&riu=http%3a%2f%2fil2.picdn.net%2fshutterstock%2fvideos%2f4364933%2fthumb%2f4.jpg&ehk=uJjYH6i9rT8EbMZNvDx1nHz3uLWsQeRmCUIgLK0KDwc%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400%;
+    padding: 2vh 0vh 0vh 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.introduction {
+    padding: 2vh 2vh 3vh 2vh;
+    height: max-content;
+    width: 93%;
+    margin: 0vh 0vh 0vh 2vh;
+    border-radius: 3vh;
+}
+.introduction > article {
+    margin-left: 0%;
+    
+}
+.introduction > article >h2 {
+    font-size: 1.7vh;
+}
+
+.introduction > article >p {
+    font-size: 1.5vh;
+    line-height: 2.6vh;
+}
+.introduction > article >h3 {
+    font-size: 2vh;
+}
+.introduction > article >h4 {
+    font-size: 1vh;
+}
+#VDOS {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+.introduction > article > video {
+    border-radius: 15px;
+    margin: 0vh 0vh 2vh 0vh;
+    height:max-content;
+    width: 75% ;
+    
+}
+
+/* page3 */
+
+#page3 {
+    
+    background-image: url('https://i.pinimg.com/736x/1f/2f/a4/1f2fa49dcb5dfaa98cff13baa6c1e869.jpg');
+    background-position:top;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    margin: 2vh 2vh 2vh 1vh;
+    
+    
+}
+.pagein {
+    margin: 0vh 1vh 0vh 1vh;
+    padding: 0vh 1vh 1.5vh 2vh;
+    border-radius: 1.6vh;
+}
+
+.timeline {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+.pagein >h1 {
+    font-size: 4vh;
+}
+.pagein >h3 {
+    font-size: 2vh;
+    
+}
+#efx {
+    color:rgb(255, 255, 255) ;
+}
+.pagein >p {
+    font-size: 1.4vh;
+    line-height: 2.6vh;
+    
+}
+.timeline >h3 {
+    font-size: 2.5vh;
+    font-weight: 700;
+    font-family: changa;
+    letter-spacing: 0.1vh;
+}
+.checkpoint {
+    width: 70%;
+    padding: 2em 0vh 2vh 0em;
+    
+}/**********/
+.checkpoint div {
+    border: 2px solid white;
+    border-radius: 2.4vh;
+    padding: 1.5vh;
+    backdrop-filter: blur(0.19vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+.checkpoint p {
+    line-height: 1em;
+    font-size: 1.3vh;
+}/*
+.checkpoint:nth-child(odd) {
+    border-left : 0px solid #888;
+    padding-left : 3em;
+    transform :translateX(2em);
+}
+.checkpoint:nth-child(even) {
+    border-right : 0px solid #888;
+    padding-right : 3em;
+    transform :translateX(-2em);
+}
+.checkpoint:nth-child(odd)::before,
+.checkpoint::nth-child(even)::before {
+    content : '';
+    background: #888;
+    width:3em;
+    height:3px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-45%);
+}*/
+#page3in > h3 {
+    font-size: 3vh;
+    line-height: 6vh;
+}
+#page3in > p {
+    font-size: 2vh;
+}
+
+/*page4*/
+#page4 {
+    margin: 2vh 2vh 2vh 1vh;
+    background-image: url('https://wallpapercave.com/wp/wp3348397.jpg');
+    background-size: 400%;
+}
+
+.page4_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: max-content;
+}
+.page4_1 > .aside>h3 {
+    font-size: 2vh;
+    line-height: 2.4vh;
+}
+.page4_1 > .aside > p {
+    font-size: 1.4vh;
+    line-height: 2vh;
+}
+.page4_1 > img {
+    border-radius: 2vh;
+    height: max-content;
+    width: 85%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+/*page5  */
+.page5 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-image: url('https://wallpapers.com/images/hd/city-night-pictures-gskgutgbj6g6n2a2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500%;
+    height: max-content;
+}
+.page5_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    height: max-content;
+}
+
+.page5_1 > .aside>h3 {
+    font-size: 1.8vh;
+    line-height: 2.4vh;
+}
+ .aside > p {
+    padding-top: 1.3vh;
+    font-size: 1.4vh;
+    line-height: 2.4vh;
+}
+.page5_1 > img {
+   
+    border-radius: 1.8vh;
+    height: max-content;
+    width: 85%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    
+}
+.aside > h3 {
+    font-size: 2vh;
+    line-height: 2.8vh;
+}
+/*page6 */
+.page6 {
+    padding: 2vh 3vh 2vh 1vh;
+    background-image: url('https://i.pinimg.com/736x/a9/2d/a5/a92da591f96071959622a70719074011.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.page6in{
+    text-align: center;
+    padding: 2vh 1vh 1vh 1.2vh;
+    border-radius: 1.5vh;
+}
+.page6in >h1{
+    font-size: 2.5vh;
+    line-height: 3vh;
+}
+.page6in > p {
+    padding-top: 2vh;
+    font-size: 1.4vh;
+    line-height: 2.49vh;
+}
+.page6in >a {
+    height: max-content;
+    width: max-content;
+    border-radius: 2.5vh;
+}
+/*footer content */
+footer {
+    padding: 3vh 1vh 4vh 1vh;
+    width: 100%;
+    line-height: 2.4vh;
+    height: max-content;
+}
+.footerbox1 {
+    margin: 02vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > h1{
+    font-size: 2.4vh;
+}
+footer > p{
+    font-size:1.4vh;
+}
+.footerbox1 > img {
+    width: 80%;
+    height: max-content;
+    opacity: 0.7;
+}
+#footerbox1_1 > p {
+    font-size: 1.3vh;
+}
+
+
+
+}
+/*Screen biigger than laptop */
+@media only screen and (min-width:1023px) and (min-height : 1366px) {
+    body {
+        margin: 0vh 0vh 0vh 0vh;
+    }
+    #back {
+        height:4vh;
+        width: 13vh;
+        border-radius: 8vh;
+        bottom: 1vh;
+        left: 1vh;
+    }
+    navbar {
+        height: 6vh;
+        padding: 1.3% 0% 0% 0%;
+        visibility: visible;
+        width: 100%;
+       
+    }
+    .navli {
+        padding:0% 0% 0% 0% ;   
+        
+    }
+    .navli >li>a {
+        padding:0vh 0vh ;
+        font-size: 1.5vh;
+    }
+    .navli>li>a:active {
+        border-top-left-radius: 01vh;
+        border-bottom-right-radius: 1vh;
+        border-width: 0.2vh;        
+    }
+    
+/*herobar*/
+.explanation {
+    height: 48vh;
+    width: 88%;
+    margin-top: 9vh;
+    border-radius:1vh ;
+    padding: 5vh 1vh 2vh 3vh;
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+.herobar {
+    /*margin-top: 20px;
+   */ height: 100vh;
+    width: 100%;
+    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+}
+.herobar > span {
+    z-index: index 1;
+    padding-top: 5vh;
+    font-size: 3vh;
+    text-align: center;
+}
+.herobar > span > b {
+    font-size: 12vh;
+    font-weight: 900;
+    padding-top: 7vh;
+    letter-spacing: 1vh;
+}
+/*Introduction*/
+#page2 {
+    background-image: url('https://th.bing.com/th/id/R.d14e7d815484e0c76853af9dd8549ae0?rik=iv9aBECgOxMI1w&riu=http%3a%2f%2fil2.picdn.net%2fshutterstock%2fvideos%2f4364933%2fthumb%2f4.jpg&ehk=uJjYH6i9rT8EbMZNvDx1nHz3uLWsQeRmCUIgLK0KDwc%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400%;
+    padding: 2vh 0vh 0vh 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.introduction {
+    padding: 2vh 2vh 3vh 2vh;
+    height: max-content;
+    width: 93%;
+    margin: 0vh 0vh 0vh 2vh;
+    border-radius: 3vh;
+}
+.introduction > article {
+    margin-left: 0%;
+    
+}
+.introduction > article >h2 {
+    font-size: 4vh;
+}
+
+.introduction > article >p {
+    font-size: 2vh;
+    line-height: 2.6vh;
+}
+.introduction > article >h3 {
+    font-size: 4vh;
+}
+.introduction > article >h4 {
+    font-size: 4vh;
+}
+#VDOS {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+.introduction > article > video {
+    border-radius: 15px;
+    margin: 0vh 0vh 2vh 0vh;
+    height:max-content;
+    width: 75% ;
+    
+}
+
+/* page3 */
+
+#page3 {
+    
+    background-image: url('https://i.pinimg.com/736x/1f/2f/a4/1f2fa49dcb5dfaa98cff13baa6c1e869.jpg');
+    background-position:top;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    margin: 2vh 2vh 2vh 1vh;
+    
+    
+}
+.pagein {
+    margin: 0vh 1vh 0vh 1vh;
+    padding: 0vh 1vh 1.5vh 2vh;
+    border-radius: 1.6vh;
+}
+
+.timeline {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+.pagein >h1 {
+    font-size: 4vh;
+}
+.pagein >h3 {
+    font-size: 4vh;
+    
+}
+#efx {
+    color:rgb(255, 255, 255) ;
+}
+.pagein >p {
+    font-size: 2vh;
+    line-height: 2.6vh;
+    
+}
+.timeline >h3 {
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: changa;
+    letter-spacing: 0.1vh;
+}
+.checkpoint {
+    width: 70%;
+    padding: 2em 0vh 2vh 0em;
+    
+}/**********/
+.checkpoint div {
+    border: 2px solid white;
+    border-radius: 2.4vh;
+    padding: 1.5vh;
+    backdrop-filter: blur(0.19vh);
+    box-shadow:0vh 0vh 1vh rgba(227,228,237,0.37);
+    border: 0.1vh solid rgba(255,255,255,0.18);
+}
+.checkpoint p {
+    line-height: 1.9em;
+    font-size: 2vh;
+}
+.checkpoint  h2{
+    line-height: 1.9em;
+    font-size: 2.5vh;
+}
+.checkpoint  h4{
+    line-height: 1.9em;
+    font-size: 2.5vh;
+}/*
+.checkpoint:nth-child(odd) {
+    border-left : 0px solid #888;
+    padding-left : 3em;
+    transform :translateX(2em);
+}
+.checkpoint:nth-child(even) {
+    border-right : 0px solid #888;
+    padding-right : 3em;
+    transform :translateX(-2em);
+}
+.checkpoint:nth-child(odd)::before,
+.checkpoint::nth-child(even)::before {
+    content : '';
+    background: #888;
+    width:3em;
+    height:3px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-45%);
+}*/
+#page3in > h3 {
+    font-size: 4vh;
+    line-height: 6vh;
+}
+#page3in > p {
+    font-size: 2vh;
+}
+
+/*page4*/
+#page4 {
+    margin: 2vh 2vh 2vh 1vh;
+    background-image: url('https://wallpapercave.com/wp/wp3348397.jpg');
+    background-size: 400%;
+}
+
+.page4_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: max-content;
+}
+.page4_1 > .aside>h3 {
+    font-size: 4vh;
+    line-height: 3vh;
+}
+.page4_1 > .aside > p {
+    font-size: 2vh;
+    line-height: 3vh;
+}
+.page4_1 > img {
+    border-radius: 2vh;
+    height: max-content;
+    width: 55%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+/*page5  */
+.page5 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-image: url('https://wallpapers.com/images/hd/city-night-pictures-gskgutgbj6g6n2a2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500%;
+    height: max-content;
+}
+.page5_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    height: max-content;
+}
+
+.page5_1 > .aside>h3 {
+    font-size: 3;
+    line-height: 2.4vh;
+}
+ .aside > p {
+    padding-top: 1.3vh;
+    font-size: 2vh;
+    line-height: 2.7vh;
+}
+.page5_1 > img {
+   
+    border-radius: 1.8vh;
+    height: max-content;
+    width: 55%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    
+}
+.aside > h3 {
+    font-size: 4vh;
+    line-height: 2.8vh;
+}
+/*page6 */
+.page6 {
+    padding: 2vh 3vh 2vh 1vh;
+    background-image: url('https://i.pinimg.com/736x/a9/2d/a5/a92da591f96071959622a70719074011.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.page6in{
+    text-align: center;
+    padding: 2vh 1vh 1vh 1.2vh;
+    border-radius: 1.5vh;
+}
+.page6in >h1{
+    font-size: 4vh;
+    line-height: 3vh;
+}
+.page6in > p {
+    padding-top: 2vh;
+    font-size: 2vh;
+    line-height: 2.5vh;
+}
+.page6in >a {
+    height: max-content;
+    width: max-content;
+    border-radius: 2.5vh;
+    margin-top: 12%;
+}
+
+/*footer content */
+footer {
+    padding: 3vh 0vh 4vh 0vh;
+    width: 100%;
+    line-height: 2.4vh;
+    height: max-content;
+    margin: 0px;
+}
+.footerbox1 {
+    width: 100%;
+    margin: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > h1{
+    font-size: 2.4vh;
+}
+footer > p{
+    font-size:1.4vh;
+}
+.footerbox1 > img {
+    width: 10%;
+    height: max-content;
+    opacity: 0.7;
+}
+#footerbox1_1 > p {
+    font-size: 1.3vh;
+}
+
+
+
+}
