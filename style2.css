@@ -523,7 +523,7 @@ footer > p{
     /*margin-top: 20px;
    */ height: 100vh;
     width: 100%;
-    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+    background-image: url("page1_background.jpg");
 }
 .herobar > span {
     z-index: index 1;
@@ -866,7 +866,7 @@ footer > p{
     /*margin-top: 20px;
    */ height: 100vh;
     width: 100%;
-    background-image: url('https://images.wallpapersden.com/image/download/solar-planet-4k-art_bGVqZ2iUmZqaraWkpJRobWllrWdpZWU.jpg');
+    background-image: url("page1_background.jpg");
 }
 .herobar > span {
     z-index: index 1;
