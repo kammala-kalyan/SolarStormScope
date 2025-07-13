@@ -32,5 +32,26 @@ It helps users learn about geomagnetic storms through engaging visuals, short vi
 - GitHub Pages for deployment
 
 ---
+## 📸 Screenshots
 
+### 🚀 Opening Page
+![Opening Page](https://github.com/kammala-kalyan/SolarStormScope/blob/main/Opening_Page.png
+)
+
+### 🌍 Main Visualization Page
+![Main Page](https://github.com/kammala-kalyan/SolarStormScope/blob/main/Main_Page.png)
+
+### 🎞️ Video Embed Section
+![Videos Page](https://github.com/kammala-kalyan/SolarStormScope/blob/main/videos_page.png)
+
+### 🧠 Quiz Interface
+![Quiz Page](https://github.com/kammala-kalyan/SolarStormScope/blob/main/quiz_page.png)
+
+---
+## 🙋‍♂️ Creator
+
+**Developed by:** Kammala Kalyan  
+**Project for:** [NASA Space Apps Challenge 2024](https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/show-us-what-the-may-2024-geomagnetic-storms-looked-like/)
+
+> This project was independently designed, developed, and submitted as part of the global NASA Space Apps Challenge initiative.
 
