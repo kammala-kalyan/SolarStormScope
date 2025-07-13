@@ -2,7 +2,7 @@
 
 > 📅 Challenge: [Show Us What the May 2024 Geomagnetic Storms Looked Like](https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/show-us-what-the-may-2024-geomagnetic-storms-looked-like/)  
 > 🎯 Participant: NASA Space Apps Challenge 2024  
-> 🔗 Live Site: [View Project<img src="https://th.bing.com/th/id/R.3ab61b2566db7a3ea287c84cbe366a83?rik=Lkm%2buIkQWyV%2fxg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fsun-png-bright-sun-2249.png&ehk=RFiM7TYhJPpGfUBJjrBSqgbayQ%2bQ1B8qv7ZO9WW9Uv8%3d&risl=&pid=ImgRaw&r=0" type="image/png" alt="Project Logo" width="30"/>](https://kammala-kalyan.github.io/NasaSpaceAppChallenge/page1.html)
+> 🔗 Live Site: [View Project](https://kammala-kalyan.github.io/NasaSpaceAppChallenge/page1.html)
 
 ---
 
