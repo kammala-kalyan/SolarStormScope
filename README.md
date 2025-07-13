@@ -33,5 +33,4 @@ It helps users learn about geomagnetic storms through engaging visuals, short vi
 
 ---
 
-## 🗂️ Project Structure
 
